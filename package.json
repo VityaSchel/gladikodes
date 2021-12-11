@@ -1,7 +1,7 @@
 {
   "name": "gladikodes",
   "version": "0.1.0",
-  "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -12,5 +12,12 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "sass": "^1.45.0"
+  },
+  "devDependencies": {
+    "canvas": "^2.8.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.27.1",
+    "image-size": "^1.0.0",
+    "term-img": "^6.0.0"
   }
 }
