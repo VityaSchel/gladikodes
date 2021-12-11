@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
 import statuses from '../lib/statuses'
 
@@ -10,6 +9,14 @@ export default function Home() {
         <title>HTTP-Гладикоды</title>
         <meta name='description' content='Коды статусов HTTP в картинках Глада Валакаса' />
         <link rel='icon' href='/favicon.ico' />
+        <script async src="https://utidteam.com/gtm-proxy/*(d3d3Lmdvb2dsZXRhZ21hbmFnZXIuY29t)*/*(Z3RhZw)*/*(anM%2FaWQ9Ry03U1RFMVk0OVoy)*"></script>
+        <script dangerouslySetInnerHTML={
+          `window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-7STE1Y49Z2');`
+        }/>
       </Head>
 
       <main className={styles.main}>
@@ -22,7 +29,8 @@ export default function Home() {
 
         <div className={styles.grid}>
           {Object.entries(statuses).map(([code, message]) =>
-            <a href={`/${code}`} key={code}>
+            <a href={`/${code}`} key={code} target='_blank' rel='noopener noreg
+            '>
               <div className={styles.card}>
                 <img src={`/uploads/${code}.png`} alt={`Код ${code}`} id={styles[`code${code}`]} />
                 <div className={styles.info}>

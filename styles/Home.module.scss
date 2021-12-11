@@ -1,5 +1,9 @@
 .container {
   padding: 1rem 8rem;
+
+  @media screen and (max-width: 768px) {
+    padding: 1rem;
+  }
 }
 
 .title {
@@ -28,6 +32,10 @@
   $gap: 15px;
   column-gap: $gap;
   row-gap: $gap;
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 
   .card {
     border-radius: 5px;
