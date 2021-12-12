@@ -1,34 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Гладикоды
 
-## Getting Started
+Вдохновлено сайтом [http.cat](https://github.com/httpcats/http.cat)
 
-First, run the development server:
+## Развернутая версия
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+https://gladikodes.utidteam.com/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Использование
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+https://gladikodes.utidteam.com/[код статуса]
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Например,
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+https://gladikodes.utidteam.com/404
 
-## Learn More
+или
 
-To learn more about Next.js, take a look at the following resources:
+https://gladikodes.utidteam.com/404.png
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Информация
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Сделано на Next.JS (React) в 2021 за одну ночь за которую я почти умер и думал уже нет шансов что я доживу до релиза потому что я болел + не думал что я буду делать этот сайт 4 часа!! Спасибо кладфлеру за то что предоставляет бесплатный cdn и спасает мои гигабуты. Подписывайтесь на [нашу телегу гадз](https://t.me/gadzas) и донатьте мне: [https://donate.qiwi.com/payin/vityaschel](https://donate.qiwi.com/payin/vityaschel)
