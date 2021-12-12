@@ -1,24 +1,11 @@
-import Head from 'next/head'
+import Head from '../components/Head'
 import styles from '../styles/Home.module.scss'
 import statuses from '../lib/statuses'
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>HTTP-Гладикоды</title>
-        <meta name='description' content='Коды статусов HTTP в картинках Глада Валакаса' />
-        <link rel='icon' href='/favicon.ico' />
-        <script async src="https://utidteam.com/gtm-proxy/*(d3d3Lmdvb2dsZXRhZ21hbmFnZXIuY29t)*/*(Z3RhZw)*/*(anM%2FaWQ9Ry03U1RFMVk0OVoy)*"></script>
-        <meta property="og:image" content="https://gladikodes.utidteam.com/418" />
-        <script dangerouslySetInnerHTML={{ __html:
-          `window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-7STE1Y49Z2');`
-        }}/>
-      </Head>
+      <Head />
 
       <main className={styles.main}>
         <div className={styles.info}>
@@ -50,6 +37,9 @@ export default function Home() {
       <footer className={styles.footer}>
         <a href='https://hloth.dev' target='_blank' rel='noopener noreferrer'>
           от разработчика сайта с гадзами и абобой / by hloth
+        </a>
+        <a href='https://github.com/VityaSchel/gladikodes' target='_blank' rel='noopener noreferrer'>
+          <svg width="1em" height="1em" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33c.85 0 1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z" fill="currentColor"></path></svg>
         </a>
       </footer>
     </div>

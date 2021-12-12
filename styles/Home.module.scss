@@ -84,5 +84,12 @@
 
 .footer {
   margin-top: 5em;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 15px;
+
+  a {
+    display: block;
+  }
 }
